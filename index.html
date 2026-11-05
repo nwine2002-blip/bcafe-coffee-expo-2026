@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>豐巢咖啡 ‧ 2026 台灣國際咖啡展 (11/16 - 11/19) 特展宣傳頁</title>
+  <meta name="description" content="豐巢咖啡 (B Cafe) 2026 台灣國際咖啡展特展專頁！11/16 - 11/19 於台北南港展覽館 1 館 4 樓 M816 攤位盛大登場。精選頂級藝伎系列、高海拔單品莊園豆、招牌義式配方豆現場手沖試飲，線上預約送鑑賞級濾掛包！">
+  <meta property="og:title" content="豐巢咖啡 ‧ 2026 台灣國際咖啡展特展限定">
+  <meta property="og:description" content="淬鍊時光的香氣，在南港與你相遇！展場限定豆單、年度星芒旗艦禮盒首發、現場手沖試飲。">
+  <meta property="og:image" content="https://i0.wp.com/bcafe.magicship.xyz/wp-content/uploads/2026/07/righthand.webp?fit=1792%2C2390&ssl=1">
+  <meta property="og:url" content="https://bcafe.magicship.xyz/">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@400;600;700;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            coffee: {
+              950: '#0d0a09',
+              900: '#14100e',
+              850: '#1a1412',
+              800: '#241a15',
+              700: '#34251e',
+              600: '#4c362b',
+              accent: '#c89658',
+              gold: '#d4af37',
+              cream: '#fbf8f3',
+              sand: '#e8ded2'
+            }
+          },
+          fontFamily: {
+            serif: ['"Noto Serif TC"', 'serif'],
+            sans: ['"Noto Sans TC"', '"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"Plus Jakarta Sans"', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#0f0c0b] text-stone-200 font-sans selection:bg-amber-600 selection:text-white relative overflow-x-hidden">
+
+  <!-- 背景氛圍光效 -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-amber-600/10 rounded-full blur-[140px]"></div>
+    <div class="absolute top-[40%] -left-40 w-[600px] h-[600px] bg-amber-700/8 rounded-full blur-[130px]"></div>
+    <div class="absolute top-[70%] -right-40 w-[600px] h-[600px] bg-yellow-600/8 rounded-full blur-[130px]"></div>
+  </div>
+
+  <!-- ==================== 頂部導航列 ==================== -->
+  <header class="fixed top-0 left-0 right-0 z-40 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- 品牌 Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-600/30 to-amber-900/40 border border-amber-500/30 p-1.5 flex items-center justify-center group-hover:border-amber-400 transition-all">
+          <img 
+            src="https://i0.wp.com/bcafe.magicship.xyz/wp-content/uploads/2024/10/462180734_1054978076100467_2733890952153626445_n-removebg-preview.png?fit=500%2C500&ssl=1" 
+            alt="豐巢咖啡" 
+            class="w-full h-full object-contain group-hover:scale-105 transition-transform"
+          />
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-lg font-bold font-serif tracking-wider text-stone-100 group-hover:text-amber-300 transition-colors">豐巢咖啡</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 font-semibold tracking-wide">
+              11/16 咖啡展
+            </span>
+          </div>
+          <span class="text-[11px] text-stone-400 block -mt-0.5 tracking-tight font-light">好咖啡的秘密基地 ‧ 自家烘焙</span>
+        </div>
+      </a>
+
+      <!-- 桌面版選單 -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-stone-300">
+        <a href="#expo-info" class="hover:text-amber-300 transition-colors">展會資訊</a>
+        <a href="#perks-section" class="hover:text-amber-300 transition-colors">展場好康</a>
+        <a href="#products-section" class="hover:text-amber-300 transition-colors">展場豆單</a>
+        <a href="#flavor-section" class="hover:text-amber-300 transition-colors">尋豆指南</a>
+        <a href="#schedule-section" class="hover:text-amber-300 transition-colors">活動時程</a>
+        <a href="#reservation-section" class="hover:text-amber-300 transition-colors">預約試飲</a>
+        <a href="https://bcafe.magicship.xyz/" target="_blank" class="text-amber-400/90 hover:text-amber-300 flex items-center gap-1 transition-colors">
+          <span>豐巢官網</span>
+          <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+        </a>
+      </nav>
+
+      <!-- 右側按鈕 -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a 
+          href="#reservation-section" 
+          class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 text-stone-950 font-bold text-xs tracking-wider flex items-center gap-2 transition-all shadow-lg hover:shadow-amber-500/20 btn-shimmer"
+        >
+          <i data-lucide="ticket" class="w-4 h-4"></i>
+          <span>免費預約品飲</span>
+        </a>
+      </div>
+
+      <!-- 手機版選單漢堡按鈕 -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2.5 rounded-xl bg-stone-900 border border-stone-800 text-stone-300 hover:text-white">
+        <i data-lucide="menu" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- 手機版選單下拉區塊 -->
+    <div id="mobile-menu" class="hidden lg:hidden px-4 pt-3 pb-6 border-t border-stone-800 bg-stone-950/95 backdrop-blur-xl">
+      <div class="flex flex-col gap-3 text-sm">
+        <a href="#expo-info" class="p-2 rounded-lg hover:bg-stone-900 text-stone-200">展會資訊</a>
+        <a href="#perks-section" class="p-2 rounded-lg hover:bg-stone-900 text-stone-200">展場好康</a>
+        <a href="#products-section" class="p-2 rounded-lg hover:bg-stone-900 text-stone-200">展場豆單</a>
+        <a href="#flavor-section" class="p-2 rounded-lg hover:bg-stone-900 text-stone-200">尋豆指南</a>
+        <a href="#schedule-section" class="p-2 rounded-lg hover:bg-stone-900 text-stone-200">活動時程</a>
+        <a href="#reservation-section" class="p-2 rounded-lg hover:bg-stone-900 text-stone-200">預約試飲</a>
+        <a href="https://bcafe.magicship.xyz/" target="_blank" class="p-2 rounded-lg hover:bg-stone-900 text-amber-400 flex items-center justify-between">
+          <span>前往豐巢官方商城</span>
+          <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+        </a>
+        <a 
+          href="#reservation-section" 
+          class="mt-2 w-full py-3 rounded-xl bg-amber-600 text-stone-950 font-bold text-center text-sm"
+        >
+          立即預約品飲 ‧ 領取免費濾掛
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-24 sm:pt-28">
+
+    <!-- ==================== HERO SECTION 主視覺區塊 ==================== -->
+    <section class="min-h-[85vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16 relative">
+      <div class="max-w-5xl mx-auto text-center">
+        <!-- Event Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-950/50 border border-amber-600/40 text-amber-300 text-xs sm:text-sm font-medium mb-6 shadow-xl backdrop-blur-md">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+          <span>2026 台灣國際咖啡展 ‧ 11/16 (一) - 11/19 (四) 盛大登場</span>
+        </div>
+
+        <!-- Main Title -->
+        <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-black tracking-tight leading-[1.15] mb-6">
+          <span class="text-stone-100 block">淬鍊時光的香氣</span>
+          <span class="gold-gradient-text block mt-1">在南港與你相遇</span>
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="text-base sm:text-xl text-stone-300 max-w-2xl mx-auto font-light leading-relaxed mb-10">
+          豐巢咖啡嚴選全球三大頂級藝伎、高海拔單品莊園豆與年度得獎配方。現場職人現磨手沖試飲，誠摯邀請每一位熱愛咖啡的靈魂一同共襄盛舉。
+        </p>
+
+        <!-- 展會倒數計時器 -->
+        <div class="glass-card rounded-3xl p-6 sm:p-8 max-w-2xl mx-auto mb-10 shadow-2xl relative overflow-hidden pulse-glow">
+          <div class="text-xs font-semibold uppercase tracking-widest text-amber-400/90 mb-4 flex items-center justify-center gap-2">
+            <i data-lucide="clock" class="w-4 h-4 text-amber-400"></i>
+            <span id="countdown-status">距離 11/16 咖啡展開幕 倒數</span>
+          </div>
+
+          <div class="grid grid-cols-4 gap-3 sm:gap-6 font-mono">
+            <div class="bg-stone-900/90 rounded-2xl p-3 sm:p-4 border border-stone-800">
+              <span id="countdown-days" class="text-2xl sm:text-4xl md:text-5xl font-black text-amber-400 block">00</span>
+              <span class="text-[10px] sm:text-xs text-stone-400 mt-1 block">天 DAYS</span>
+            </div>
+            <div class="bg-stone-900/90 rounded-2xl p-3 sm:p-4 border border-stone-800">
+              <span id="countdown-hours" class="text-2xl sm:text-4xl md:text-5xl font-black text-stone-100 block">00</span>
+              <span class="text-[10px] sm:text-xs text-stone-400 mt-1 block">時 HOURS</span>
+            </div>
+            <div class="bg-stone-900/90 rounded-2xl p-3 sm:p-4 border border-stone-800">
+              <span id="countdown-mins" class="text-2xl sm:text-4xl md:text-5xl font-black text-stone-100 block">00</span>
+              <span class="text-[10px] sm:text-xs text-stone-400 mt-1 block">分 MINS</span>
+            </div>
+            <div class="bg-stone-900/90 rounded-2xl p-3 sm:p-4 border border-stone-800">
+              <span id="countdown-secs" class="text-2xl sm:text-4xl md:text-5xl font-black text-amber-500 block">00</span>
+              <span class="text-[10px] sm:text-xs text-stone-400 mt-1 block">秒 SECS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a 
+            href="#products-section" 
+            class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-500 hover:to-amber-400 text-stone-950 font-black text-sm tracking-wider flex items-center justify-center gap-2 shadow-2xl hover:scale-105 transition-all btn-shimmer"
+          >
+            <i data-lucide="coffee" class="w-4 h-4"></i>
+            <span>查看展場限定豆單</span>
+          </a>
+          <a 
+            href="#reservation-section" 
+            class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-stone-900/80 hover:bg-stone-800 text-stone-200 border border-stone-700 font-semibold text-sm tracking-wider flex items-center justify-center gap-2 transition-all hover:border-amber-500/50"
+          >
+            <i data-lucide="ticket" class="w-4 h-4 text-amber-400"></i>
+            <span>展前預約 ‧ 現場領取濾掛</span>
+          </a>
+        </div>
+
+        <!-- Quick Event Highlights Strip -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-8 border-t border-stone-800/80 text-left">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-950/40 border border-amber-600/30 flex items-center justify-center text-amber-400 flex-shrink-0">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="text-xs text-stone-400">頂級藝伎微批次</div>
+              <div class="text-sm font-bold text-stone-200">3 大產區展場首發</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-950/40 border border-amber-600/30 flex items-center justify-center text-amber-400 flex-shrink-0">
+              <i data-lucide="flame" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="text-xs text-stone-400">新鮮現磨手沖</div>
+              <div class="text-sm font-bold text-stone-200">10+ 款莊園豆試飲</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-950/40 border border-amber-600/30 flex items-center justify-center text-amber-400 flex-shrink-0">
+              <i data-lucide="tag" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="text-xs text-stone-400">展場獨家折扣</div>
+              <div class="text-sm font-bold text-stone-200">任選兩件享 85 折</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-950/40 border border-amber-600/30 flex items-center justify-center text-amber-400 flex-shrink-0">
+              <i data-lucide="gift" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="text-xs text-stone-400">打卡與預約禮</div>
+              <div class="text-sm font-bold text-stone-200">現場贈鑑賞級濾掛</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 展會實用資訊區塊 ==================== -->
+    <section id="expo-info" class="py-16 px-4 sm:px-6 lg:px-8 border-y border-stone-800/80 bg-stone-950/60 relative">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          <div class="md:col-span-1">
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-400 block mb-2">LOCATION & DATES</span>
+            <h2 class="text-2xl sm:text-3xl font-serif font-bold text-stone-100 mb-3">
+              特展展位資訊
+            </h2>
+            <p class="text-stone-400 text-sm leading-relaxed mb-4">
+              豐巢咖啡展位位於南港展覽館 1 館 4 樓核心展區，歡迎攜帶保溫瓶或個人品飲杯，我們將為您現場手沖沖煮！
+            </p>
+            <div class="inline-flex items-center gap-2 text-xs text-amber-300 bg-amber-950/40 px-3 py-1.5 rounded-lg border border-amber-600/30">
+              <i data-lucide="info" class="w-4 h-4"></i>
+              <span>現場支援多元行動支付與信用卡</span>
+            </div>
+          </div>
+
+          <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <!-- 展期時間 -->
+            <div class="glass-card rounded-2xl p-5 border border-stone-800">
+              <div class="w-10 h-10 rounded-xl bg-amber-950/40 text-amber-400 flex items-center justify-center mb-3">
+                <i data-lucide="calendar" class="w-5 h-5"></i>
+              </div>
+              <span class="text-xs text-stone-400 block">展出日期</span>
+              <span class="text-base font-bold text-stone-100 block mt-1">2026.11.16 - 11.19</span>
+              <span class="text-xs text-amber-300/80 block mt-0.5">每日 10:00 - 18:00</span>
+            </div>
+
+            <!-- 地點展館 -->
+            <div class="glass-card rounded-2xl p-5 border border-stone-800">
+              <div class="w-10 h-10 rounded-xl bg-amber-950/40 text-amber-400 flex items-center justify-center mb-3">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+              </div>
+              <span class="text-xs text-stone-400 block">展覽地點</span>
+              <span class="text-base font-bold text-stone-100 block mt-1">台北南港展覽館 1 館</span>
+              <span class="text-xs text-stone-400 block mt-0.5">台北市南港區經貿二路 1 號 4 樓</span>
+            </div>
+
+            <!-- 展位號碼 -->
+            <div class="glass-card rounded-2xl p-5 border border-amber-600/40 bg-gradient-to-br from-amber-950/30 to-stone-900">
+              <div class="w-10 h-10 rounded-xl bg-amber-500 text-stone-950 flex items-center justify-center mb-3 font-bold">
+                <i data-lucide="compass" class="w-5 h-5"></i>
+              </div>
+              <span class="text-xs text-amber-300/80 block">豐巢攤位號碼</span>
+              <span class="text-2xl font-black text-amber-400 font-mono block mt-0.5">M 816</span>
+              <span class="text-[11px] text-stone-400 block mt-0.5">主走道交叉路口 ‧ 認明木質咖啡吧</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 展場 4 大專屬好康 ==================== -->
+    <section id="perks-section" class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-400 block mb-2">EXPO SPECIALS</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-stone-100 mb-3">
+            展場限定 4 大專屬好康
+          </h2>
+          <p class="text-stone-400 text-sm">
+            一年一度全台最大咖啡盛會，豐巢咖啡回饋所有支持的朋友，現場優惠僅限展期 4 天！
+          </p>
+        </div>
+
+        <div id="perks-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 展場限定產品型錄展示 ==================== -->
+    <section id="products-section" class="py-20 px-4 sm:px-6 lg:px-8 bg-stone-950/80 border-t border-stone-800/80">
+      <div class="max-w-7xl mx-auto">
+        <!-- 標題與簡介 -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-400 block mb-2">CURATED SELECTION</span>
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-stone-100">
+              檔期上架產品深度介紹
+            </h2>
+            <p class="text-stone-400 text-sm mt-1">
+              點擊卡片可查看烘豆師杯測風味筆記與專屬手沖參數
+            </p>
+          </div>
+          <div id="products-count" class="text-xs text-amber-400/90 font-mono px-3 py-1.5 rounded-lg bg-stone-900 border border-stone-800 self-start md:self-auto">
+            載入中...
+          </div>
+        </div>
+
+        <!-- 搜尋列與分類過濾器 -->
+        <div class="glass-card rounded-2xl p-4 sm:p-5 mb-10 flex flex-col md:flex-row items-center justify-between gap-4">
+          <!-- 分類按鈕組 -->
+          <div class="flex flex-wrap items-center gap-2 w-full md:w-auto">
+            <button 
+              data-category-btn="all"
+              class="px-4 py-2 rounded-xl text-xs bg-amber-600 text-stone-950 font-bold shadow-lg transition-all"
+            >
+              全部展品
+            </button>
+            <button 
+              data-category-btn="geisha"
+              class="px-4 py-2 rounded-xl text-xs bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+            >
+              👑 頂級藝伎系列
+            </button>
+            <button 
+              data-category-btn="single"
+              class="px-4 py-2 rounded-xl text-xs bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+            >
+              🌿 莊園單品豆
+            </button>
+            <button 
+              data-category-btn="espresso"
+              class="px-4 py-2 rounded-xl text-xs bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+            >
+              ☕ 招牌義式配方
+            </button>
+            <button 
+              data-category-btn="gift"
+              class="px-4 py-2 rounded-xl text-xs bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+            >
+              🎁 展期限定禮盒
+            </button>
+          </div>
+
+          <!-- 搜尋框 -->
+          <div class="relative w-full md:w-72">
+            <i data-lucide="search" class="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+            <input 
+              type="text" 
+              id="product-search-input"
+              placeholder="搜尋風味、產區、豆名..." 
+              class="w-full pl-10 pr-4 py-2 text-xs rounded-xl bg-stone-900 border border-stone-700 text-stone-100 placeholder-stone-500 focus:outline-none focus:border-amber-500 transition-colors"
+            />
+          </div>
+        </div>
+
+        <!-- 產品卡片網格 -->
+        <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 互動尋豆指南 (Flavor Recommender) ==================== -->
+    <section id="flavor-section" class="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+      <div class="max-w-5xl mx-auto">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 relative overflow-hidden border border-amber-600/30">
+          <div class="text-center max-w-xl mx-auto mb-10">
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-400 block mb-2">FLAVOR MATCHER</span>
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-stone-100 mb-3">
+              你今天想喝什麼樣的風味？
+            </h2>
+            <p class="text-stone-400 text-sm">
+              點擊你心儀的香氣調性，我們立即為你推薦最契合的展場主打豆
+            </p>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5">
+            <button 
+              data-flavor-profile="floral"
+              class="p-4 rounded-2xl bg-stone-900/90 border border-stone-800 hover:border-amber-500 text-center transition-all group hover:-translate-y-1"
+            >
+              <div class="w-10 h-10 rounded-full bg-pink-950/40 text-pink-400 border border-pink-700/30 flex items-center justify-center mx-auto mb-2 text-lg">
+                🌸
+              </div>
+              <span class="text-sm font-bold text-stone-100 block mb-1">高雅花香</span>
+              <span class="text-[11px] text-stone-400 block">茉莉 / 白花 / 橙花</span>
+            </button>
+
+            <button 
+              data-flavor-profile="fruity"
+              class="p-4 rounded-2xl bg-stone-900/90 border border-stone-800 hover:border-amber-500 text-center transition-all group hover:-translate-y-1"
+            >
+              <div class="w-10 h-10 rounded-full bg-amber-950/40 text-amber-400 border border-amber-700/30 flex items-center justify-center mx-auto mb-2 text-lg">
+                🍑
+              </div>
+              <span class="text-sm font-bold text-stone-100 block mb-1">熱帶果香</span>
+              <span class="text-[11px] text-stone-400 block">白桃 / 百香果 / 藍莓</span>
+            </button>
+
+            <button 
+              data-flavor-profile="sweet"
+              class="p-4 rounded-2xl bg-stone-900/90 border border-stone-800 hover:border-amber-500 text-center transition-all group hover:-translate-y-1"
+            >
+              <div class="w-10 h-10 rounded-full bg-yellow-950/40 text-yellow-400 border border-yellow-700/30 flex items-center justify-center mx-auto mb-2 text-lg">
+                🍯
+              </div>
+              <span class="text-sm font-bold text-stone-100 block mb-1">蜜糖甘甜</span>
+              <span class="text-[11px] text-stone-400 block">龍眼蜜 / 焦糖紅蘋果</span>
+            </button>
+
+            <button 
+              data-flavor-profile="nutty"
+              class="p-4 rounded-2xl bg-stone-900/90 border border-stone-800 hover:border-amber-500 text-center transition-all group hover:-translate-y-1"
+            >
+              <div class="w-10 h-10 rounded-full bg-orange-950/40 text-orange-400 border border-orange-700/30 flex items-center justify-center mx-auto mb-2 text-lg">
+                🌰
+              </div>
+              <span class="text-sm font-bold text-stone-100 block mb-1">堅果可可</span>
+              <span class="text-[11px] text-stone-400 block">烤杏仁 / 太妃糖牛奶</span>
+            </button>
+
+            <button 
+              data-flavor-profile="dark"
+              class="p-4 rounded-2xl bg-stone-900/90 border border-stone-800 hover:border-amber-500 text-center transition-all group hover:-translate-y-1"
+            >
+              <div class="w-10 h-10 rounded-full bg-stone-800 text-amber-300 border border-amber-800/40 flex items-center justify-center mx-auto mb-2 text-lg">
+                🍵
+              </div>
+              <span class="text-sm font-bold text-stone-100 block mb-1">烏龍茶韻</span>
+              <span class="text-[11px] text-stone-400 block">凍頂茶韻 / 80% 黑巧</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 展位試飲活動時程表 ==================== -->
+    <section id="schedule-section" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-stone-800/80 bg-stone-950/60">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-400 block mb-2">LIVE SESSIONS</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-stone-100 mb-3">
+            展位手沖與杯測時程表
+          </h2>
+          <p class="text-stone-400 text-sm">
+            展期 4 天，每日由主烘豆師與客座 Q-Grader 帶來精采的主題品評與萃取交流
+          </p>
+        </div>
+
+        <!-- 日期切換 Tab -->
+        <div class="flex items-center justify-center gap-2 sm:gap-3 mb-8 flex-wrap">
+          <button 
+            data-schedule-tab="0"
+            class="px-5 py-2.5 rounded-xl text-xs sm:text-sm bg-amber-600 text-stone-950 font-bold shadow-lg transition-all"
+          >
+            Day 1 (11/16 一)
+          </button>
+          <button 
+            data-schedule-tab="1"
+            class="px-5 py-2.5 rounded-xl text-xs sm:text-sm bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+          >
+            Day 2 (11/17 二)
+          </button>
+          <button 
+            data-schedule-tab="2"
+            class="px-5 py-2.5 rounded-xl text-xs sm:text-sm bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+          >
+            Day 3 (11/18 三)
+          </button>
+          <button 
+            data-schedule-tab="3"
+            class="px-5 py-2.5 rounded-xl text-xs sm:text-sm bg-stone-800/80 text-stone-300 hover:bg-stone-700 transition-all"
+          >
+            Day 4 (11/19 四)
+          </button>
+        </div>
+
+        <!-- 時程內容顯示區塊 -->
+        <div id="schedule-content" class="glass-card rounded-3xl p-6 sm:p-8">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 展前 VIP 試飲預約表單 ==================== -->
+    <section id="reservation-section" class="py-24 px-4 sm:px-6 lg:px-8 relative">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center max-w-xl mx-auto mb-12">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold mb-3 border border-amber-500/30">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            <span>限時線上預約好禮</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-stone-100 mb-3">
+            免費預約展位專屬品飲
+          </h2>
+          <p class="text-stone-400 text-sm">
+            填寫預約表單即可生成數位 VIP 憑證，展期蒞臨攤位 M816 即可領取「鑑賞級精品濾掛包」乙份，並享咖啡師專屬手沖服務！
+          </p>
+        </div>
+
+        <!-- 預約表單容器 -->
+        <div id="reservation-form-container" class="glass-card rounded-3xl p-6 sm:p-10 border border-amber-600/30 shadow-2xl">
+          <form id="reservation-form" class="space-y-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div>
+                <label for="res-name" class="block text-xs font-semibold text-stone-300 mb-2">
+                  您的姓名 *
+                </label>
+                <input 
+                  type="text" 
+                  id="res-name" 
+                  required 
+                  placeholder="例：陳小明" 
+                  class="w-full px-4 py-3 rounded-xl bg-stone-900/90 border border-stone-700 text-stone-100 placeholder-stone-500 text-sm focus:outline-none focus:border-amber-500 transition-colors"
+                />
+              </div>
+
+              <div>
+                <label for="res-phone" class="block text-xs font-semibold text-stone-300 mb-2">
+                  手機號碼 (核對憑證用) *
+                </label>
+                <input 
+                  type="tel" 
+                  id="res-phone" 
+                  required 
+                  placeholder="例：0912-345-678" 
+                  class="w-full px-4 py-3 rounded-xl bg-stone-900/90 border border-stone-700 text-stone-100 placeholder-stone-500 text-sm focus:outline-none focus:border-amber-500 transition-colors"
+                />
+              </div>
+
+              <div>
+                <label for="res-email" class="block text-xs font-semibold text-stone-300 mb-2">
+                  電子信箱 (選填)
+                </label>
+                <input 
+                  type="email" 
+                  id="res-email" 
+                  placeholder="例：coffee@example.com" 
+                  class="w-full px-4 py-3 rounded-xl bg-stone-900/90 border border-stone-700 text-stone-100 placeholder-stone-500 text-sm focus:outline-none focus:border-amber-500 transition-colors"
+                />
+              </div>
+
+              <div>
+                <label for="res-date" class="block text-xs font-semibold text-stone-300 mb-2">
+                  預計參觀日期 *
+                </label>
+                <select 
+                  id="res-date" 
+                  required 
+                  class="w-full px-4 py-3 rounded-xl bg-stone-900/90 border border-stone-700 text-stone-100 text-sm focus:outline-none focus:border-amber-500 transition-colors"
+                >
+                  <option value="2026-11-16 (一) 開幕日">2026-11-16 (一) 開幕首日</option>
+                  <option value="2026-11-17 (二)">2026-11-17 (二)</option>
+                  <option value="2026-11-18 (三)">2026-11-18 (三)</option>
+                  <option value="2026-11-19 (四) 壓軸日">2026-11-19 (四) 壓軸日</option>
+                </select>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label for="res-pref" class="block text-xs font-semibold text-stone-300 mb-2">
+                  您最想品飲的咖啡類型
+                </label>
+                <select 
+                  id="res-pref" 
+                  class="w-full px-4 py-3 rounded-xl bg-stone-900/90 border border-stone-700 text-stone-100 text-sm focus:outline-none focus:border-amber-500 transition-colors"
+                >
+                  <option value="👑 頂級水洗藝伎系列 (花香清茶韻)">👑 頂級水洗藝伎系列 (花香清茶韻)</option>
+                  <option value="☀️ 慢速日曬與蜜處理 (甜美莓果桃子調)">☀️ 慢速日曬與蜜處理 (甜美莓果桃子調)</option>
+                  <option value="☕ 豐巢經典中焙義式 (堅果焦糖莓果)">☕ 豐巢經典中焙義式 (堅果焦糖莓果)</option>
+                  <option value="🍫 凍頂烏龍茶韻深焙 (黑巧克力濃厚回甘)">🍫 凍頂烏龍茶韻深焙 (黑巧克力濃厚回甘)</option>
+                  <option value="🎁 星芒年度限定禮盒試飲">🎁 星芒年度限定禮盒試飲</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="pt-2">
+              <button 
+                type="submit" 
+                class="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-500 hover:to-amber-400 text-stone-950 font-black text-base flex items-center justify-center gap-2 shadow-2xl transition-all btn-shimmer"
+              >
+                <i data-lucide="check-circle" class="w-5 h-5"></i>
+                <span>立即確認預約 ‧ 領取數位貴賓證</span>
+              </button>
+            </div>
+            <p class="text-[11px] text-stone-500 text-center">
+              * 送出後將自動生成專屬貴賓憑證，可截圖或列印，至展位現場直接出示即可兌換贈品。
+            </p>
+          </form>
+        </div>
+
+        <!-- 預約成功後顯示的 VIP 憑證展示卡片 (初始隱藏) -->
+        <div id="vip-pass-display" class="hidden">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== 品牌理念與職人堅持 ==================== -->
+    <section id="about-section" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-stone-800/80 bg-stone-950/90">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-widest text-amber-400 block mb-2">ABOUT B CAFE</span>
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-stone-100 leading-tight mb-6">
+              豐巢咖啡 ‧ 好咖啡的秘密基地
+            </h2>
+            <div class="space-y-4 text-stone-300 text-sm leading-relaxed font-light">
+              <p>
+                「我們相信，一杯真正觸動人心的咖啡，始於對產區風土的敬畏，並在烘焙火候中淬鍊出靈魂。」
+              </p>
+              <p>
+                豐巢咖啡創立至今，堅持親自尋訪世界各大產區微批次生豆，從衣索比亞古老高山到哥倫比亞的隱密花境，以細膩極致的烘焙曲線，保留每一顆咖啡豆最真實純淨的花果芬芳與回甘層次。
+              </p>
+              <p>
+                不論是漫步在城市節奏中需要的一杯優雅配方，亦或午後獨享的一盞空靈藝伎，豐巢咖啡就是您生活中最溫暖的咖啡庇護所。
+              </p>
+            </div>
+
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a 
+                href="https://bcafe.magicship.xyz/" 
+                target="_blank" 
+                class="px-6 py-3 rounded-xl bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-xs flex items-center gap-2 transition-colors"
+              >
+                <span>探索豐巢咖啡官方商城</span>
+                <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+              </a>
+              <a 
+                href="https://bcafe.magicship.xyz/feed/" 
+                target="_blank" 
+                class="px-6 py-3 rounded-xl bg-stone-900 hover:bg-stone-800 text-stone-300 text-xs flex items-center gap-2 border border-stone-800 transition-colors"
+              >
+                <i data-lucide="rss" class="w-4 h-4 text-amber-400"></i>
+                <span>訂閱咖啡文章專欄</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="aspect-video sm:aspect-square rounded-3xl overflow-hidden border border-amber-600/30 shadow-2xl relative group">
+              <img 
+                src="https://i0.wp.com/bcafe.magicship.xyz/wp-content/uploads/2026/07/righthand.webp?fit=1792%2C2390&ssl=1" 
+                alt="豐巢咖啡職人烘焙" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent"></div>
+              <div class="absolute bottom-6 left-6 right-6">
+                <span class="text-xs text-amber-300 font-semibold block mb-1">年度盛會首發</span>
+                <h4 class="text-xl font-bold text-stone-100 font-serif">金藏歲月 ‧ 擁抱星芒 限定禮盒</h4>
+                <p class="text-xs text-stone-300 mt-1 line-clamp-2">
+                  融合去年廣受好評的月球配方靈感，全新星芒配方耳掛現場同步登場。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 頁尾區塊 ==================== -->
+  <footer class="bg-[#090706] border-t border-stone-900 py-12 px-4 sm:px-6 lg:px-8 text-stone-400 text-xs">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <img 
+          src="https://i0.wp.com/bcafe.magicship.xyz/wp-content/uploads/2024/10/462180734_1054978076100467_2733890952153626445_n-removebg-preview.png?fit=500%2C500&ssl=1" 
+          alt="豐巢咖啡" 
+          class="w-8 h-8 object-contain"
+        />
+        <div>
+          <span class="text-stone-200 font-bold">豐巢咖啡 (B Cafe)</span>
+          <p class="text-[11px] text-stone-500 mt-0.5">© 2026 豐巢咖啡. 版權所有 ‧ 2026 台灣國際咖啡展參展專頁</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-6">
+        <a href="https://bcafe.magicship.xyz/" target="_blank" class="hover:text-amber-300 transition-colors">官方網站</a>
+        <a href="https://bcafe.magicship.xyz/shop/" target="_blank" class="hover:text-amber-300 transition-colors">線上商城</a>
+        <a href="#expo-info" class="hover:text-amber-300 transition-colors">展場交通</a>
+        <a href="#reservation-section" class="hover:text-amber-300 transition-colors">貴賓預約</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== 產品詳情 Modal ==================== -->
+  <div 
+    id="product-modal" 
+    class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 overflow-y-auto"
+  >
+    <div class="relative w-full max-w-2xl bg-stone-950 border border-amber-600/40 rounded-3xl p-6 sm:p-8 shadow-2xl my-8">
+      <!-- 關閉按鈕 -->
+      <button 
+        onclick="closeProductModal()" 
+        class="absolute top-4 right-4 p-2 rounded-full bg-stone-900 border border-stone-800 text-stone-400 hover:text-white hover:border-stone-700 transition-colors z-20"
+      >
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Modal Body -->
+      <div id="modal-body">
+        <!-- Dynamically populated by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
