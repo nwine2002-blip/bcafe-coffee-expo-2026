@@ -1,6 +1,7 @@
 # 豐巢咖啡 (B Cafe) ‧ 2026 台灣國際咖啡展宣傳專頁
 
 > 官網：[https://bcafe.magicship.xyz/](https://bcafe.magicship.xyz/)  
+> 🌐 **Cloudflare Pages 線上特展頁面**：[https://bcafe-coffee-expo-2026.pages.dev/](https://bcafe-coffee-expo-2026.pages.dev/)  
 > 展期：2026.11.16 (一) - 11.19 (四) 10:00 - 18:00  
 > 地點：台北南港展覽館 1 館 4 樓 ‧ 攤位 **M816**  
 
